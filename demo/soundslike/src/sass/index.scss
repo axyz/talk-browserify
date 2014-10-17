@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(166, 182, 74, .7);
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 70px 120px;
+  font-size: 21px;
+  color: #333;
+  text-shadow: 0px 0px 21px rgba(21, 15, 21, 1);
+}
+
+input[type="text"] {
+  font-size: 3vw;
+  color: #666;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus {
+  border: solid 1px #dcdcdc;
+  box-shadow: 0 0 5px 1px #aaaaaa;
+}
+
+.input-comparator {
+  text-align:center;
+  margin-top: 1vw;
+
+  .input-comparator__title {
+    color: #93269b;
+    font-size: 10vw;
+    text-shadow: 2px 2px 0px #eee, 5px 5px 3px #352736;
+  }
+
+  .input-comparator__output {
+    color: #d13167;
+    font-size: 5vw;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #eee, 3px 3px 2px #352736;
+  }
+}
